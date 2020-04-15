@@ -1,3 +1,3 @@
 # deepgolani13
-work for DCT-
-contribution as intern in nirols
+
+my contribution in new venture D T C founded by nirols.com, iit-bhu ThinQbator, cisco.
