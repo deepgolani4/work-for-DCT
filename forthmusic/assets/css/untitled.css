@@ -1,0 +1,97 @@
+element.style {
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(14,160,255,.5);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0ea0ff;
+  border-color: #0ea0ff;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(14,160,255,.5);
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #0ea0ff;
+  border-color: #0ea0ff;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(14,160,255,.25);
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0075c1;
+  text-decoration: underline;
+}
+
+.btn-outline-primary {
+  color: #0ea0ff;
+  border-color: #0ea0ff;
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .btn {
+    transition: none;
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 2em;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+a {
+  color: #0ea0ff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.portfolio-block.block-intro {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Lato,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
