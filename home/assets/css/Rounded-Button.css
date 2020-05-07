@@ -1,0 +1,31 @@
+.add {
+  background: #d32641;
+  padding: 20px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  background-color: blue;
+  /*f: Montserrat;*/
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+}
+
+.clean-navbar.fixed-top + .page {
+  background-color: black;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  margin-left: 10px;
+}
+
